@@ -40,7 +40,7 @@ public class TestClass {
             System.out.println("Age Change Failed");
         }
 
-        WebElement name = driver.findElement(By.xpath("//input[@id='Name']"));
+        WebElement name = driver.findElement(By.xpath("//input[@id='firstName']"));
         String nameVal = "Nika";
 
         name.clear();
